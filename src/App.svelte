@@ -1,4 +1,4 @@
-<script lang="coffeescript">
+<script lang="coffee">
   export name = null
 
   ## Counter sample based on https://svelte.dev/tutorial/reactive-statements
