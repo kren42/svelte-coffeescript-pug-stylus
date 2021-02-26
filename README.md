@@ -1,11 +1,11 @@
-# svelte-coffeescript-pug
+# svelte-coffeescript-pug-stylus
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/Leftium/svelte-coffeescript-pug.
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/kren42/svelte-coffeescript-pug-stylus.
 
 It is based on [sveltejs/template](https://github.com/sveltejs/template) with some small changes:
 
-- *Add support for CoffeeScript and Pug*
-- *Demonstrate how to use CoffeeScript/Pug in App.svelte*
+- *Add support for CoffeeScript, Pug, and Stylus*
+- *Demonstrate how to use CoffeeScript/Pug/Stylus in App.svelte*
 - *Updated this README file*
 - *Added file svelte.config.js (for VS Code Svelte language tools)*
 - *Added file launch.json (for VS Code)*
@@ -15,7 +15,7 @@ It is based on [sveltejs/template](https://github.com/sveltejs/template) with so
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit Leftium/svelte-coffeescript-pug svelte-app
+npx degit kren42/svelte-coffeescript-pug-stylus svelte-app
 cd svelte-app
 ```
 
@@ -64,36 +64,4 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 
 ```js
 "start": "sirv public --single"
-```
-
-## Deploying to the web
-
-### With [Vercel](https://vercel.com)
-
-Install `vercel` if you haven't already:
-
-```bash
-npm install -g vercel
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-vercel deploy --name my-project
-```
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
 ```
